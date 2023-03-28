@@ -12,8 +12,8 @@ public class Calculator {
         if (y != 0) {
             return x / y;
         } else {
-            System.out.println("На ноль делить нельзя!!!");
-			return 0;
+            System.out.println("РќР° РЅРѕР»СЊ РґРµР»РёС‚СЊ РЅРµР»СЊР·СЏ!!!");
+	    return 0;
         }
     };
     UnaryOperator<Integer> pow = x -> x * x;
