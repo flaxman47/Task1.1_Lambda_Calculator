@@ -2,8 +2,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Лямбда-выражения и функциональные интерфейсы\n" +
-                "Задача 1: Калькулятор\n");
+        System.out.println("Р›СЏРјР±РґР°-РІС‹СЂР°Р¶РµРЅРёСЏ Рё С„СѓРЅРєС†РёРѕРЅР°Р»СЊРЅС‹Рµ РёРЅС‚РµСЂС„РµР№СЃС‹\n" +
+                "Р—Р°РґР°С‡Р° 1: РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ\n");
 
         Calculator calc = Calculator.instance.get();
 
@@ -11,7 +11,7 @@ public class Main {
         int b = calc.minus.apply(1, 1);
         int c = calc.divide.apply(a, b);
         
-		//вывод результата 
+	//РІС‹РІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р°
         calc.println.accept(c);
 
         int d = calc.multiply.apply(a, b);
