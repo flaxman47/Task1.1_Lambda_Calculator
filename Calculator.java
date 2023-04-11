@@ -13,7 +13,7 @@ public class Calculator {
             return x / y;
         } else {
             System.out.println("На ноль делить нельзя!!!");
-	    return 0;
+	    return Integer.MAX_VALUE;
         }
     };
     UnaryOperator<Integer> pow = x -> x * x;
